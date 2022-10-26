@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test Real Data Mail</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+	<div id="text">
+		<h1>{{$asset}}</h1>
+		<h3>Hi {{$supplier_name}}</h3>
+		<p>
+			I am from Room - {{ $room_no }} . I am facing problem with <b class="text-danger"><i>{{ $details }}</i></b> 
+		</p>
+		<p>I want you to solve this issue at {{ $date }}</p>
+		<p>If you read this Real Data mail. Please reply me.
+			Thanks Kaungchit.</p>
+
+	</div>
+		<div class="row bg-info font-weight-bold p-2">
+          <div class="col-md-6">
+            <span>Product Name</span>
+          </div>
+          <div class="col-md-6 text-center">
+            <span>Minimum Order Quantity</span>
+          </div>
+          <hr class="bg-white">
+        </div>
+
+        <div class="row p-2 m-2" id="productList">
+          <div class="col-md-6">
+            <span>Name</span>
+          </div>
+          <div class="col-md-6 text-center">
+            <span>1</span>
+          </div>
+        </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</html>
